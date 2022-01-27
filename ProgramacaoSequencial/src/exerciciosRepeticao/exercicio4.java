@@ -23,8 +23,7 @@ public class exercicio4 {
 		
 		Scanner sc = new Scanner (System.in);
 		
-		int idade, sexo, opcoes, dados = 0, calma =0, agressiva = 0, nervosa =0;
-		int nCalmas =0, mNervosas = 0, hAgressivos = 0, pNervosas40 = 0, pCalmas18 = 0, oCalmos = 0 ;
+		int idade, sexo, opcoes, dados = 0, calma =0, agressiva = 0, nervosa =0, nCalmas =0, mNervosas = 0, hAgressivos = 0, pNervosas40 = 0, pCalmas18 = 0, oCalmos = 0 ;
 		
 		while (dados < 150) {
 			System.out.print("Digite a idade da pessoa: ");
