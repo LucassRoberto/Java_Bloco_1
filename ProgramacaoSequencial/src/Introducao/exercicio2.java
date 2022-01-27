@@ -19,8 +19,8 @@ public class exercicio2 {
 		
 		System.out.println("A idade da pessoa é " + anos + " ano (s)" + " , " + meses + " mes (es)" + " e " + dias + " dia (s)");
 		
+		sc.close();	
 		
-
 	}
 
 }
