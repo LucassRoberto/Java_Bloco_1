@@ -13,7 +13,9 @@ public class Exercicio2 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
 		
-		int media, soma = 0, maior = 0, vezesMaior = 0;
+		int soma = 0, maior = 0, vezesMaior = 0;
+		double media;
+		
 		int dado [] = new int [10];
 		
 		for (int i = 0; i<10; i++) {//entrando com os valores sorteados
@@ -29,7 +31,7 @@ public class Exercicio2 {
 			soma = soma + dado [i];
 		}
 		
-		media = soma / 10;// calcular a media
+		media = soma / 10.0;// calcular a media
 		
 		for (int i = 0; i<10; i++) {//encontrar o maior valor
 			if (dado[i]> maior){
@@ -43,7 +45,8 @@ public class Exercicio2 {
 			}
 		}
 		
-		System.out.println("\nA maior pontuação é: " + maior +" e aparece " + vezesMaior + " vezes.");	
+		System.out.println("\nA maior pontuação é " + maior +" e aparece " + vezesMaior + " vezes.");	
+		System.out.printf("A média dos números sorteados é %.2f%n", media);
 		
 		sc.close();
 	}
