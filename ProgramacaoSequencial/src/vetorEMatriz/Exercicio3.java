@@ -43,14 +43,14 @@ public class Exercicio3 {
 		}
 		
 		
-		for (int linha=0; linha<4; linha++) {// criando a primeira matriz que é a diferença de n1-n2
+		for (int linha=0; linha<4; linha++) {// criando a segunda matriz que é a diferença de n1-n2
 			for (int coluna=0; coluna <6; coluna++) {
 				m2[linha][coluna] = n1[linha][coluna] - n2[linha][coluna];
 			}
 		}
 		
 		System.out.println();
-		for (int linha=0; linha<4; linha++) {// criando a primeira matriz que é a diferença de n1-n2
+		for (int linha=0; linha<4; linha++) {// imprimindo os valores de m2
 			for (int coluna=0; coluna <6; coluna++) {
 				System.out.print(m2[linha][coluna] + " ");
 			}
