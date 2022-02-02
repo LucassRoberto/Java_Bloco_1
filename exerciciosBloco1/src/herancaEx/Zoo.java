@@ -17,7 +17,7 @@ public class Zoo {
 		Preguica preg = new Preguica();
 		
 		System.out.print("Nome do cachorro: ");//características de um cachorro
-		dog.setNome(sc.next());
+		dog.setNome(sc.nextLine());
 		System.out.print("Idade: ");
 		dog.setIdade (sc.nextInt());
 		dog.emiteSom();
@@ -25,7 +25,8 @@ public class Zoo {
 		System.out.println();
 		
 		System.out.print("Nome do cavalo: ");// características de um cavalo
-		cavalo.setNome(sc.next());
+		sc.nextLine();
+		cavalo.setNome(sc.nextLine());
 		System.out.print("Idade: ");
 		cavalo.setIdade (sc.nextInt());
 		cavalo.emiteSom();
@@ -33,7 +34,8 @@ public class Zoo {
 		System.out.println();
 		
 		System.out.print("Nome da preguiça: ");// características de uma preguiça
-		preg.setNome(sc.next());
+		sc.nextLine();
+		preg.setNome(sc.nextLine());
 		System.out.print("Idade: ");
 		preg.setIdade (sc.nextInt());
 		preg.emiteSom();

@@ -6,7 +6,7 @@ public class Animal {
 	private int idade;
 	
 	public void emiteSom() {//métodos da classe
-		System.out.println("O animal emite som. ");
+	System.out.println("Emite som de mamífero. ");
 	}
 
 	public String getNome() {
